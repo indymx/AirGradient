@@ -4,11 +4,11 @@
 const int screenUpdateFrequencyMs = 5000;
 
 //Id of the device for Prometheus
-const char * deviceId = "testboard";
+const char * deviceId = "";
 
 //Wifi information
-const char* ssid = "Quickinet";
-const char* password = "8929242969";
+const char* ssid = "";
+const char* password = "";
 const uint16_t port = 9925;
 
 #ifdef staticip
