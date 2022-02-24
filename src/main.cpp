@@ -130,7 +130,7 @@ void updateScreen() {
 
         case 2:
             if (!(sensorType & Measurement::Temperature)) {
-                showTextRectangle("TMP", String(data.TMP, 1) + "C", false);
+                showTextRectangle("TMP", String((data.TMP * 1.8) + 32, 1) + "F", false);
                 break;
             }
 
